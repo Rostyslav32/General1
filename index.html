@@ -1,0 +1,119 @@
+<DOCTYPE html>
+
+    <head>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="first">
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="second">
+
+            <button type="button" class="btn btn-warning" id="edit" value="Edit">Edit</button>
+            <button type="button" class="btn btn-primary style" value="Style">Style</button>
+        </div>
+        <div class="third">
+            <div class="hide buttons">
+                <textarea class="textarea" rows="5" cols="130"></textarea><br><br>
+                <button type="button" class="btn btn-danger add" value="Add">Add</button>
+                <button type="button" class="btn btn-success save" value="Save">Save</button>
+            </div>
+            <div class="format">
+                <div class="square">
+                    <div class="square1"> </div>
+                    <div class="square2"> </div>
+                    <div class="square3"> </div>
+                    <div class="square4"> </div>
+                    <div class="square5"> </div>
+                    <div class="square6"> </div>
+                    <div class="square7"> </div>
+                    <div class="square8"> </div>
+                    <div class="square9"> </div>
+                </div>
+                <h6>Font Size:</h6>
+                <p> <label><input type="radio" name="radio" class="radio radio1">12px</label>
+                    <label><input type="radio" name="radio" class="radio radio2">14px</label>
+                    <label><input type="radio" name="radio" class="radio radio3">16px</label>
+                    <label><input type="radio" name="radio" class="radio radio4">18px</label>
+                    <label><input type="radio" name="radio" class="radio radio5">20px</label>
+                </p>
+                <h6>Font Family:</h6>
+                <select class="select">
+                    <option>Choose option</option>
+                    <option> cursive </option>
+                    <option> fantasy </option>
+                    <option> monospace </option>
+                    <option> sens-serif </option>
+                  </select>
+                <h6>Colors:</h6>
+                <p> <button type="button" class="btn btn-secondary textcolor">Color of text</button>
+                    <button type="button" class="btn btn-secondary backcolor ">Background color</button>
+                </p>
+                <h6>Style:</h6>
+                <p><label><input type="checkbox" class="boldT">Bold Text</label>
+                    <label><input type="checkbox" class="cursiveT">Cursive Text</label>
+                </p>
+            </div>
+        </div>
+
+        <div class="tableform">
+            <div class="format2">
+                <h3>Choose what you want</h3>
+                <label><input type="radio" name="radio1" class="radio radiotable">table</label>
+                <label><input type="radio" name="radio1" class="radio radiolist">list</label>
+                <div class="hide table">
+                    <p class="margin-bottom">Count TR:<input type="text" placeholder=" Count TR:" class="text margin-left countTR"></p>
+                    <p class="margin-bottom">Count TD:<input type="text" placeholder=" Count TD:" class="text margin-left countTD"></p>
+                    <h5>Add style to your table:</h5>
+                    <p style="margin-bottom:20px;">Width of TD:<input style="margin-left:50px" type="text" placeholder=" Width of TD:" class="text widthTD"></p>
+                    <p style="margin-bottom:20px;">Height of TD:<input style="margin-left:50px" type="text" placeholder=" Height of TD:" class="text heightTD"></p>
+                    Width of border:
+                    <p class="text">
+                        <input type="text" class="widthborder" placeholder=" Width of border:" style="float: left; margin-right: 15px;width: 130px;"> Type of border:
+
+                        <select class="typeborder" style="margin: 0px auto; height: 30px;margin:0px 15px; width: 130px;">
+                            <option>solid</option>
+                            <option> double </option>
+                          </select> Color of border:
+
+                        <select style="float:right; height: 30px;width: 130px;" class="colorborder">
+                            <option>black</option>
+                            <option> red </option>
+                            <option> blue </option>
+                            <option> green </option>
+                          </select>
+                    </p>
+                    <button type="button" class="btn btn-success createtable" style="margin-top: 15px;">Create table</button>
+                </div>
+                <div class="hide list">
+                    <p class="margin-bottom">Count Li: <input type="text" placeholder=" Count Li:" class="text countLi"></p>
+                    <p class="margin-bottom">Type of marks:
+                        <select class="text listtype">
+                        <option> circle</option>
+                        <option> disc</option>
+                        <option> square</option>
+                    </select>
+                        <button type="button" class="btn btn-success createlist" style="margin-top: 15px;">Create list</button>
+
+                </div>
+            </div>
+        </div>
+        <table>
+
+        </table>
+        <script src="js.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
